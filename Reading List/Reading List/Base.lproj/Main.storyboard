@@ -26,17 +26,17 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="117.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="172" translatesAutoresizingMaskIntoConstraints="NO" id="3qB-2N-GCS">
-                                            <rect key="frame" x="16" y="33.5" width="343" height="50.5"/>
+                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="3qB-2N-GCS">
+                                            <rect key="frame" x="16" y="34" width="343" height="50"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Wh-HT-RFw">
-                                                    <rect key="frame" x="0.0" y="0.0" width="45.5" height="50.5"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="210" height="50"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h0c-S1-d8R">
-                                                    <rect key="frame" x="217.5" y="0.0" width="125.5" height="50.5"/>
+                                                <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="252" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h0c-S1-d8R">
+                                                    <rect key="frame" x="218" y="0.0" width="125" height="50"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="h0c-S1-d8R" secondAttribute="height" multiplier="5:2" id="Cq8-MK-z2O"/>
                                                     </constraints>
@@ -143,6 +143,6 @@
         <image name="checked" width="50" height="50"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="wHc-69-sV0"/>
+        <segue reference="18U-wc-nWp"/>
     </inferredMetricsTieBreakers>
 </document>

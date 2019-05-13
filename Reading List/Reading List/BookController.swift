@@ -42,13 +42,16 @@ class BookController {
  
     func updateHasBeenRead(for book:Book){
 //         One is to update a Book object's hasBeenRead property. Call it updateHasBeenRead(for book: Book). It should simply swap the hasBeenRead value from false to true and vice-versa.
-        var updatedBook = book
-        updatedBook.hasBeenRead = !updatedBook.hasBeenRead
-        books.append(updatedBook)
+        guard let index = books.index(of: book) else {return}
+       
+        books[index].hasBeenRead = !books[index].hasBeenRead
+        
+//        books.append(updatedBook)
         saveToPersistentStore()
     }
     
     func updateBook(book: Book, with title: String, reasonToRead: String) {
+
         guard let index = books.index(of: book) else {return}
         books[index].title = title
         books[index].reasonToRead = reasonToRead
