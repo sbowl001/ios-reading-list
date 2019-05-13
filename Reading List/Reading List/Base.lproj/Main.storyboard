@@ -30,17 +30,17 @@
                                             <rect key="frame" x="16" y="34" width="343" height="50"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Wh-HT-RFw">
-                                                    <rect key="frame" x="0.0" y="0.0" width="210" height="50"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="285" height="50"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="252" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h0c-S1-d8R">
-                                                    <rect key="frame" x="218" y="0.0" width="125" height="50"/>
+                                                    <rect key="frame" x="293" y="0.0" width="50" height="50"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" secondItem="h0c-S1-d8R" secondAttribute="height" multiplier="5:2" id="Cq8-MK-z2O"/>
+                                                        <constraint firstAttribute="width" secondItem="h0c-S1-d8R" secondAttribute="height" multiplier="1:1" id="Cq8-MK-z2O"/>
                                                     </constraints>
-                                                    <state key="normal" title="Button" image="checked"/>
+                                                    <state key="normal" image="checked"/>
                                                     <connections>
                                                         <action selector="buttonTapped:" destination="F4F-7R-MBh" eventType="touchUpInside" id="YGt-eb-i8h"/>
                                                     </connections>
